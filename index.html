@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Personal Capsule | Event Reminder App</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <!-- App Wrapper -->
+  <div class="app-wrapper">
+
+    <!-- Header Section -->
+    <header class="header">
+      <h1>📌 Personal Capsule</h1>
+      <p class="subtitle">Store and manage your important events easily</p>
+    </header>
+
+    <!-- Main Card -->
+    <main class="card">
+
+      <!-- Input Section -->
+      <section class="input-section">
+        <h2>Add New Event</h2>
+
+        <div class="input-group">
+          <input 
+            type="text" 
+            id="eventInput" 
+            placeholder="Enter event (e.g. Meeting at 5 PM)"
+          />
+
+          <button onclick="addEvent()">Add Event</button>
+        </div>
+      </section>
+
+      <!-- Events Section -->
+      <section class="events-section">
+        <h2>Your Events</h2>
+
+        <ul id="eventList" class="event-list"></ul>
+      </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <p>Built as part of NSOC Open Source Contribution</p>
+    </footer>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

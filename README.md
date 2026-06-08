@@ -38,6 +38,15 @@ This project is designed to help users store important events like meetings, bir
 
 ---
 
+## 🔌 Backend (Flask API)
+
+- A minimal Flask backend is provided to manage events via REST API.
+
+### Endpoints:
+- GET /events
+- POST /events
+- DELETE /events/:index
+
 ## 🚀 How to Run
 
 1. Clone the repository

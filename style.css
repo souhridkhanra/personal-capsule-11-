@@ -1,0 +1,152 @@
+/* Global Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body */
+body {
+  font-family: "Arial", sans-serif;
+  background: #f4f6fb;
+  color: #333;
+}
+
+/* App Wrapper */
+.app-wrapper {
+  max-width: 700px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+/* Header */
+.header {
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.header h1 {
+  font-size: 28px;
+  color: #2b2b2b;
+}
+
+.subtitle {
+  font-size: 14px;
+  color: #777;
+  margin-top: 5px;
+}
+
+/* Main Card */
+.card {
+  background: #ffffff;
+  padding: 25px;
+  border-radius: 14px;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.08);
+}
+
+/* Section Titles */
+.card h2 {
+  font-size: 18px;
+  margin-bottom: 12px;
+  color: #222;
+}
+
+/* Input Section */
+.input-section {
+  margin-bottom: 25px;
+}
+
+.input-group {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+input {
+  flex: 1;
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  outline: none;
+  transition: 0.2s;
+}
+
+input:focus {
+  border-color: #4a6cf7;
+  box-shadow: 0 0 0 2px rgba(74,108,247,0.15);
+}
+
+/* Button */
+button {
+  padding: 12px 16px;
+  border: none;
+  background: #4a6cf7;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: 0.3s ease;
+}
+
+button:hover {
+  background: #3a57d0;
+  transform: translateY(-1px);
+}
+
+/* Events Section */
+.events-section {
+  margin-top: 10px;
+}
+
+/* Event List */
+.event-list {
+  list-style: none;
+  margin-top: 10px;
+}
+
+/* Event Item */
+.event-list li {
+  background: #f7f9fc;
+  padding: 12px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: 0.2s;
+}
+
+.event-list li:hover {
+  background: #eef2ff;
+}
+
+/* Delete Button inside list */
+.event-list li button {
+  background: #ff4d4d;
+  padding: 6px 10px;
+  font-size: 12px;
+  border-radius: 6px;
+}
+
+.event-list li button:hover {
+  background: #e63b3b;
+}
+
+/* Footer */
+.footer {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 12px;
+  color: #888;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  .input-group {
+    flex-direction: column;
+  }
+
+  button {
+    width: 100%;
+  }
+}
