@@ -1,5 +1,3 @@
-# personal-capsule-11
-
 # 📌 Personal Capsule
 
 Personal Capsule is a simple event reminder web application where users can add and view personal events.
@@ -31,11 +29,11 @@ This project is designed to help users store important events like meetings, bir
 
 ## 📁 Project Structure
 
-index.html
-style.css
-script.js
-README.md
-assets/
+- index.html
+- style.css
+- script.js
+- README.md
+- assets/
 
 
 ---
